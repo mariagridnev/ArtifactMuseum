@@ -1,0 +1,330 @@
+// GLOBAL
+body {
+	background: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	overflow-x: hidden;	
+
+	a {
+		border: none;
+		outline: none;
+	}	
+
+	a:active {
+		border: none;
+		outline: none;
+	}
+
+	a:visited {
+		border: none;
+		outline: none;
+	}
+
+	a.selected {
+		border: none;
+		outline: none;
+	}
+
+	img {
+		border-style: none;
+		outline: none;
+	}
+}
+
+#content {
+	.main {
+		float: left;
+		height: 100%;
+		position: relative;
+		width: 954px; // ( 74.53125%; 954px / 1280px )
+	}
+
+	.menu_bar {
+		float: left;
+		height: 100%;
+		position: relative;
+		width: 200px;
+	}
+
+}
+
+// NAVIGATION
+nav {	
+	top: 183px;
+	left: 44px;
+	position: fixed;
+	width: 165px;
+	z-index: 99;
+
+	img {
+		margin-bottom: 10px;
+	}
+
+	a {
+		color: #000;
+		display: block;
+		font-family: arial;
+		font-size: 10pt;
+		font-weight: normal;
+		height: 14px;
+		margin: 0;
+		padding: 2px 0 5px 11px;
+		text-decoration: none;
+		text-transform: uppercase;
+		width: 145px;
+
+
+		&.selected {
+			background: #000;
+			color: #fff;
+			font-weight: bold;
+
+			&:hover {
+				color: #fff;
+			}
+		}
+
+		&:hover {
+			color: #000;
+		}
+
+		&:first-child {
+			height: 99px;
+			margin-bottom: 20px;
+			padding: 0;
+
+			&.selected {
+				background: #fff;
+			}
+		}
+	}
+}
+	
+	div.menu {
+		display: block;
+
+		a {
+			color: #000;
+			display: block;
+			font-family: arial;
+			font-size: 10pt;
+			font-weight: normal;
+			height: 14px;
+			margin: 0;
+			padding: 2px 0 5px 31px;
+			text-decoration: none;
+			text-transform: uppercase;
+			width: 145px;
+
+
+		&.selected {
+			background: #000;
+			color: #fff;
+			font-weight: bold;
+
+			&:hover {
+				color: #fff;
+			}
+		}
+
+		&:hover {
+			color: #000;
+		}
+	}
+}
+
+.case .main {
+	border-left: 200px solid #fff;
+}
+
+// CASE ONE
+#one.case {
+		height: 2000px;
+
+		.container {
+			margin-left: 32px;
+			overflow: hidden;
+			padding-top: 45px;
+			position: relative;
+			width: 715px;
+
+			.left {
+				float: left;
+				margin: 0 15px 0 0;
+				position: relative;
+				width: 465px;
+
+				img.top {
+					margin-top: 11px;
+				}
+			}
+
+			.right {
+				float: left;
+				position: relative;
+				width: 222px;
+
+				.video img {
+					margin-bottom: -1px;
+					margin-top: 9px;
+				}
+
+				.side_img {
+					margin-top: 12px;
+				}
+			}
+
+			.bottom {
+				
+				img {
+					float: left;
+					margin-top: 13px;
+				}
+
+				img.marg_rt_14 {
+					margin-right: 14px;
+				}
+
+				img.marg_rt_10 {
+					margin-right: 9px;
+				}
+			}
+		}
+
+		.three_d {
+				position: absolute;
+				z-index: 99;
+			}
+
+		.three_d.guy {
+			top: 763px;
+			left: 638px;
+		}
+
+		.three_d.girl {
+			top: 1426px;
+			left: 785px;
+		}
+	}
+
+// CASE TWO
+#two {
+	height: 1872px;
+
+	.container {
+			margin-left: 32px;
+			overflow: hidden;
+			padding-top: 45px;
+			position: relative;
+			width: 715px;
+
+			.left {
+				float: left;
+				margin: -5px 15px 0 0;
+				position: relative;
+				width: 465px;
+
+				img.top {
+					margin-top: 11px;
+				}
+
+				img.detail_copy {
+					margin-top: 5px;
+				}
+			}
+
+			.right {
+				float: left;
+				position: relative;
+				width: 222px;
+				margin-top: 0;
+				margin-left: -3px;
+
+				.video img {
+					margin-bottom: -1px;
+					margin-top: 8px;
+				}
+
+				.side_img {
+					margin-top: 13px;
+				}
+			}
+			
+			.bottom {
+				
+				img {
+					float: left;
+					margin-top: 13px;
+				}
+
+				img.marg_rt_14 {
+					margin-right: 14px;
+				}
+
+				img.marg_rt_10 {
+					margin-right: 9px;
+				}
+			}
+		}
+	}
+
+// CASE THREE
+#three {
+	height: 1980px;
+
+	.container {
+			margin-left: 32px;
+			overflow: hidden;
+			padding-top: 45px;
+			position: relative;
+			width: 850px;
+		
+		.middle {
+			margin-top: 20px;
+
+			p.desc {
+				color: #fff;
+				font-family: 'Myriad Pro';
+				font-size: 14px;
+				font-style: italic;
+				padding: 0;
+				position: absolute;
+			}
+		}
+
+		.top {	
+			margin-top: 20px;
+			overflow: hidden;
+
+			img {
+				float: left;
+			}
+
+			img.detail_copy {
+				margin-left: 13px;
+			}
+
+			.video img {
+				margin-left: 13px;
+				margin-top: 10px;
+			}
+		}
+
+		.bottom {
+			margin-top: 40px;
+
+			p.desc {
+				color: #fff;
+				font-family: 'Myriad Pro';
+				font-size: 14px;
+				font-style: italic;
+				margin: 0;
+				padding: 0;
+				position: absolute;
+			}
+
+			.video {
+				float: right;
+			}
+		}
+	}
+}

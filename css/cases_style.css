@@ -1,0 +1,322 @@
+/* line 2, scss/cases_style.scss */
+body {
+  background: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+/* line 7, scss/cases_style.scss */
+body a {
+  border: none;
+  outline: none;
+}
+/* line 12, scss/cases_style.scss */
+body a:active {
+  border: none;
+  outline: none;
+}
+/* line 17, scss/cases_style.scss */
+body a:visited {
+  border: none;
+  outline: none;
+}
+/* line 22, scss/cases_style.scss */
+body a.selected {
+  border: none;
+  outline: none;
+}
+/* line 27, scss/cases_style.scss */
+body img {
+  border-style: none;
+  outline: none;
+}
+
+/* line 34, scss/cases_style.scss */
+#content .main {
+  float: left;
+  height: 100%;
+  position: relative;
+  width: 954px;
+}
+/* line 41, scss/cases_style.scss */
+#content .menu_bar {
+  float: left;
+  height: 100%;
+  position: relative;
+  width: 200px;
+}
+
+/* line 51, scss/cases_style.scss */
+nav {
+  top: 183px;
+  left: 44px;
+  position: fixed;
+  width: 165px;
+  z-index: 99;
+}
+/* line 58, scss/cases_style.scss */
+nav img {
+  margin-bottom: 10px;
+}
+/* line 62, scss/cases_style.scss */
+nav a {
+  color: #000;
+  display: block;
+  font-family: arial;
+  font-size: 10pt;
+  font-weight: normal;
+  height: 14px;
+  margin: 0;
+  padding: 2px 0 5px 11px;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 145px;
+}
+/* line 76, scss/cases_style.scss */
+nav a.selected {
+  background: #000;
+  color: #fff;
+  font-weight: bold;
+}
+/* line 81, scss/cases_style.scss */
+nav a.selected:hover {
+  color: #fff;
+}
+/* line 86, scss/cases_style.scss */
+nav a:hover {
+  color: #000;
+}
+/* line 90, scss/cases_style.scss */
+nav a:first-child {
+  height: 99px;
+  margin-bottom: 20px;
+  padding: 0;
+}
+/* line 95, scss/cases_style.scss */
+nav a:first-child.selected {
+  background: #fff;
+}
+
+/* line 102, scss/cases_style.scss */
+div.menu {
+  display: block;
+}
+/* line 105, scss/cases_style.scss */
+div.menu a {
+  color: #000;
+  display: block;
+  font-family: arial;
+  font-size: 10pt;
+  font-weight: normal;
+  height: 14px;
+  margin: 0;
+  padding: 2px 0 5px 31px;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 145px;
+}
+/* line 119, scss/cases_style.scss */
+div.menu a.selected {
+  background: #000;
+  color: #fff;
+  font-weight: bold;
+}
+/* line 124, scss/cases_style.scss */
+div.menu a.selected:hover {
+  color: #fff;
+}
+/* line 129, scss/cases_style.scss */
+div.menu a:hover {
+  color: #000;
+}
+
+/* line 135, scss/cases_style.scss */
+.case .main {
+  border-left: 200px solid #fff;
+}
+
+/* line 140, scss/cases_style.scss */
+#one.case {
+  height: 2000px;
+}
+/* line 143, scss/cases_style.scss */
+#one.case .container {
+  margin-left: 32px;
+  overflow: hidden;
+  padding-top: 45px;
+  position: relative;
+  width: 715px;
+}
+/* line 150, scss/cases_style.scss */
+#one.case .container .left {
+  float: left;
+  margin: 0 15px 0 0;
+  position: relative;
+  width: 465px;
+}
+/* line 156, scss/cases_style.scss */
+#one.case .container .left img.top {
+  margin-top: 11px;
+}
+/* line 161, scss/cases_style.scss */
+#one.case .container .right {
+  float: left;
+  position: relative;
+  width: 222px;
+}
+/* line 166, scss/cases_style.scss */
+#one.case .container .right .video img {
+  margin-bottom: -1px;
+  margin-top: 9px;
+}
+/* line 171, scss/cases_style.scss */
+#one.case .container .right .side_img {
+  margin-top: 12px;
+}
+/* line 178, scss/cases_style.scss */
+#one.case .container .bottom img {
+  float: left;
+  margin-top: 13px;
+}
+/* line 183, scss/cases_style.scss */
+#one.case .container .bottom img.marg_rt_14 {
+  margin-right: 14px;
+}
+/* line 187, scss/cases_style.scss */
+#one.case .container .bottom img.marg_rt_10 {
+  margin-right: 9px;
+}
+/* line 193, scss/cases_style.scss */
+#one.case .three_d {
+  position: absolute;
+  z-index: 99;
+}
+/* line 198, scss/cases_style.scss */
+#one.case .three_d.guy {
+  top: 763px;
+  left: 638px;
+}
+/* line 203, scss/cases_style.scss */
+#one.case .three_d.girl {
+  top: 1426px;
+  left: 785px;
+}
+
+/* line 210, scss/cases_style.scss */
+#two {
+  height: 1872px;
+}
+/* line 213, scss/cases_style.scss */
+#two .container {
+  margin-left: 32px;
+  overflow: hidden;
+  padding-top: 45px;
+  position: relative;
+  width: 715px;
+}
+/* line 220, scss/cases_style.scss */
+#two .container .left {
+  float: left;
+  margin: -5px 15px 0 0;
+  position: relative;
+  width: 465px;
+}
+/* line 226, scss/cases_style.scss */
+#two .container .left img.top {
+  margin-top: 11px;
+}
+/* line 230, scss/cases_style.scss */
+#two .container .left img.detail_copy {
+  margin-top: 5px;
+}
+/* line 235, scss/cases_style.scss */
+#two .container .right {
+  float: left;
+  position: relative;
+  width: 222px;
+  margin-top: 0;
+  margin-left: -3px;
+}
+/* line 242, scss/cases_style.scss */
+#two .container .right .video img {
+  margin-bottom: -1px;
+  margin-top: 8px;
+}
+/* line 247, scss/cases_style.scss */
+#two .container .right .side_img {
+  margin-top: 13px;
+}
+/* line 254, scss/cases_style.scss */
+#two .container .bottom img {
+  float: left;
+  margin-top: 13px;
+}
+/* line 259, scss/cases_style.scss */
+#two .container .bottom img.marg_rt_14 {
+  margin-right: 14px;
+}
+/* line 263, scss/cases_style.scss */
+#two .container .bottom img.marg_rt_10 {
+  margin-right: 9px;
+}
+
+/* line 271, scss/cases_style.scss */
+#three {
+  height: 1980px;
+}
+/* line 274, scss/cases_style.scss */
+#three .container {
+  margin-left: 32px;
+  overflow: hidden;
+  padding-top: 45px;
+  position: relative;
+  width: 850px;
+}
+/* line 281, scss/cases_style.scss */
+#three .container .middle {
+  margin-top: 20px;
+}
+/* line 284, scss/cases_style.scss */
+#three .container .middle p.desc {
+  color: #fff;
+  font-family: 'Myriad Pro';
+  font-size: 14px;
+  font-style: italic;
+  padding: 0;
+  position: absolute;
+}
+/* line 294, scss/cases_style.scss */
+#three .container .top {
+  margin-top: 20px;
+  overflow: hidden;
+}
+/* line 298, scss/cases_style.scss */
+#three .container .top img {
+  float: left;
+}
+/* line 302, scss/cases_style.scss */
+#three .container .top img.detail_copy {
+  margin-left: 13px;
+}
+/* line 306, scss/cases_style.scss */
+#three .container .top .video img {
+  margin-left: 13px;
+  margin-top: 10px;
+}
+/* line 312, scss/cases_style.scss */
+#three .container .bottom {
+  margin-top: 40px;
+}
+/* line 315, scss/cases_style.scss */
+#three .container .bottom p.desc {
+  color: #fff;
+  font-family: 'Myriad Pro';
+  font-size: 14px;
+  font-style: italic;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}
+/* line 325, scss/cases_style.scss */
+#three .container .bottom .video {
+  float: right;
+}

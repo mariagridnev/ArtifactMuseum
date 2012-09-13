@@ -1,0 +1,510 @@
+/* line 2, scss/main_style.scss */
+body {
+  background: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+/* line 9, scss/main_style.scss */
+body p {
+  margin: 0;
+  padding: 0;
+}
+/* line 14, scss/main_style.scss */
+body a {
+  border: none;
+  outline: none;
+}
+/* line 19, scss/main_style.scss */
+body a:active {
+  border: none;
+  outline: none;
+}
+/* line 24, scss/main_style.scss */
+body a:visited {
+  border: none;
+  outline: none;
+}
+/* line 29, scss/main_style.scss */
+body a.selected {
+  border: none;
+  outline: none;
+}
+/* line 34, scss/main_style.scss */
+body img {
+  border-style: none;
+  outline: none;
+}
+
+/* line 40, scss/main_style.scss */
+.page {
+  height: 802px;
+  width: 954px;
+}
+/* line 45, scss/main_style.scss */
+.page .main {
+  float: left;
+  max-height: 802px;
+  position: relative;
+  width: 954px;
+}
+
+/* line 56, scss/main_style.scss */
+nav {
+  top: 183px;
+  left: 44px;
+  position: fixed;
+  z-index: 99;
+}
+/* line 64, scss/main_style.scss */
+nav img {
+  margin-bottom: 10px;
+}
+/* line 68, scss/main_style.scss */
+nav a {
+  color: #000;
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  height: 14px;
+  margin: 0;
+  padding: 2px 0 5px 11px;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 145px;
+}
+/* line 81, scss/main_style.scss */
+nav a.visited {
+  color: #000;
+}
+/* line 85, scss/main_style.scss */
+nav a.selected {
+  background: #000;
+  color: #fff;
+  font-weight: bold;
+}
+/* line 90, scss/main_style.scss */
+nav a.selected:hover {
+  color: #fff;
+}
+/* line 95, scss/main_style.scss */
+nav a:hover {
+  color: #000;
+}
+/* line 99, scss/main_style.scss */
+nav a:first-child {
+  height: 99px;
+  margin-bottom: 20px;
+  padding: 0;
+}
+/* line 104, scss/main_style.scss */
+nav a:first-child.selected {
+  background: none;
+}
+/* line 109, scss/main_style.scss */
+nav a:first-child:hover {
+  background: none;
+}
+
+/* line 117, scss/main_style.scss */
+#home {
+  background: #000;
+  border-left: 200px solid #fff;
+}
+/* line 121, scss/main_style.scss */
+#home .main {
+  background: #000;
+}
+/* line 124, scss/main_style.scss */
+#home .main #mission {
+  color: #fff;
+  font-size: 14px;
+  font-style: italic;
+  left: 33px;
+  position: absolute;
+  top: 180px;
+  width: 499px;
+  z-index: 99;
+}
+/* line 134, scss/main_style.scss */
+#home .main #mission p.statement {
+  margin-bottom: 24px;
+}
+/* line 139, scss/main_style.scss */
+#home .main #mission p.statement span {
+  font-size: 24.08px;
+}
+/* line 145, scss/main_style.scss */
+#home .main #home_gallery {
+  height: 390px;
+  margin: 160px 0 0 4px;
+  overflow: hidden;
+  padding: 0;
+  width: 950px;
+}
+/* line 153, scss/main_style.scss */
+#home .main #capabilities {
+  position: absolute;
+  right: 220px;
+  top: 163px;
+  width: 156px;
+  z-index: 99;
+}
+/* line 160, scss/main_style.scss */
+#home .main #capabilities p.title {
+  background: #000;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  margin: 0 0 3px 0;
+  padding-bottom: 1px;
+  text-align: center;
+  text-transform: uppercase;
+}
+/* line 171, scss/main_style.scss */
+#home .main #capabilities ul.cap_list {
+  background: #000;
+  display: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 177, scss/main_style.scss */
+#home .main #capabilities ul.cap_list li {
+  color: #fff;
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 23px;
+  padding-left: 7px;
+  text-transform: uppercase;
+}
+/* line 186, scss/main_style.scss */
+#home .main #capabilities ul.cap_list li:last-child {
+  padding-bottom: 10px;
+}
+
+/* line 196, scss/main_style.scss */
+#case {
+  background: #000;
+  border-left: 200px solid #fff;
+}
+/* line 202, scss/main_style.scss */
+#case .main .case_slider {
+  height: 480px;
+  margin: 120px 0 0 32px;
+  overflow: hidden;
+  width: 924px;
+}
+/* line 208, scss/main_style.scss */
+#case .main .case_slider .slide {
+  position: absolute;
+  width: 702px;
+}
+/* line 212, scss/main_style.scss */
+#case .main .case_slider .slide .hero_img {
+  float: left;
+  margin-right: 15px;
+}
+/* line 217, scss/main_style.scss */
+#case .main .case_slider .slide .side_img {
+  float: left;
+  margin-bottom: 13px;
+}
+/* line 222, scss/main_style.scss */
+#case .main .case_slider .slide p {
+  color: #b7b7b7;
+  font-family: 'Myriad Pro', Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  margin-top: 11px;
+}
+/* line 229, scss/main_style.scss */
+#case .main .case_slider .slide p.heading {
+  color: #fff;
+  font-weight: bold;
+}
+/* line 234, scss/main_style.scss */
+#case .main .case_slider .slide p.case_copy {
+  margin-top: 5px;
+}
+/* line 238, scss/main_style.scss */
+#case .main .case_slider .slide a {
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 19.67px;
+  line-height: 21.01px;
+  padding: 0 81px;
+  text-decoration: none;
+}
+/* line 246, scss/main_style.scss */
+#case .main .case_slider .slide a:hover {
+  color: #fff;
+}
+/* line 250, scss/main_style.scss */
+#case .main .case_slider .slide a:active {
+  color: #fff;
+}
+/* line 255, scss/main_style.scss */
+#case .main .case_slider .slide a.more_1 {
+  background: #87ab9c;
+}
+/* line 259, scss/main_style.scss */
+#case .main .case_slider .slide a.more_2 {
+  background: #d33632;
+}
+/* line 263, scss/main_style.scss */
+#case .main .case_slider .slide a.more_3 {
+  background: #a78c97;
+}
+/* line 269, scss/main_style.scss */
+#case .main .case_slider_nav {
+  height: 10px;
+  list-style: none;
+  padding-left: 38%;
+  position: relative;
+}
+/* line 275, scss/main_style.scss */
+#case .main .case_slider_nav div {
+  background: #666;
+  cursor: pointer;
+  display: block;
+  float: left;
+  height: 10px;
+  margin-right: 10px;
+  width: 10px;
+}
+/* line 285, scss/main_style.scss */
+#case .main .case_slider_nav div.activeSlide {
+  background: #fff;
+}
+
+/* line 293, scss/main_style.scss */
+#work {
+  background: #fff;
+  border-left: 200px solid #d8352c;
+  overflow: hidden;
+}
+/* line 298, scss/main_style.scss */
+#work #video_right {
+  cursor: pointer;
+  display: none;
+  left: 831px;
+  padding-top: 64px;
+  position: absolute;
+}
+/* line 306, scss/main_style.scss */
+#work #video_left {
+  cursor: pointer;
+  display: none;
+  left: 391px;
+  padding-top: 64px;
+  position: absolute;
+}
+/* line 314, scss/main_style.scss */
+#work ul.video_gallery {
+  margin-top: 150px;
+  overflow: auto;
+}
+/* line 324, scss/main_style.scss */
+#work ul.video_gallery .panel {
+  cursor: pointer;
+  display: block;
+  float: left;
+  height: 82px;
+  margin: 0 0 4px 4px;
+  overflow: hidden;
+  position: relative;
+  width: 143px;
+}
+/* line 334, scss/main_style.scss */
+#work ul.video_gallery .panel img {
+  position: absolute;
+  top: -15%;
+}
+
+/* line 343, scss/main_style.scss */
+#team.page {
+  height: 750px;
+}
+
+/* line 347, scss/main_style.scss */
+#team {
+  background: #fff;
+  border-left: 200px solid #d8352c;
+  overflow: hidden;
+}
+/* line 352, scss/main_style.scss */
+#team .gallery {
+  height: 350px;
+  margin-left: 60px;
+  margin-top: 42px;
+}
+/* line 357, scss/main_style.scss */
+#team .gallery .leftArrow {
+  float: left;
+  margin: 150px 10px 0 0;
+  position: relative;
+  width: 15px;
+}
+/* line 364, scss/main_style.scss */
+#team .gallery .rightArrow {
+  float: left;
+  margin: 150px 0 0 10px;
+  position: relative;
+  width: 15px;
+}
+/* line 371, scss/main_style.scss */
+#team .gallery .gallery_wrapper {
+  float: left;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  width: 300px;
+}
+/* line 379, scss/main_style.scss */
+#team .gallery .gallery_wrapper .main_image.clipped ul {
+  list-style: none;
+  margin: 0;
+  overflow: auto;
+  padding: 0;
+  position: relative;
+}
+/* line 386, scss/main_style.scss */
+#team .gallery .gallery_wrapper .main_image.clipped ul li {
+  float: left;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 320px;
+}
+/* line 397, scss/main_style.scss */
+#team .gallery #comment {
+  float: left;
+  margin-top: 53px;
+  position: relative;
+}
+/* line 402, scss/main_style.scss */
+#team .gallery #comment ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+/* line 408, scss/main_style.scss */
+#team .gallery #comment ul li {
+  display: none;
+}
+/* line 411, scss/main_style.scss */
+#team .gallery #comment ul li.selected {
+  display: block;
+}
+/* line 415, scss/main_style.scss */
+#team .gallery #comment ul li p.caption {
+  font-size: 42px;
+  font-weight: bold;
+  line-height: 22px;
+  margin: 0;
+}
+/* line 422, scss/main_style.scss */
+#team .gallery #comment ul li p.caption2 {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 22px;
+  margin: 10px 0 0 0;
+}
+/* line 434, scss/main_style.scss */
+#team #connect {
+  background: #000;
+  bottom: 0;
+  font-size: 14px;
+  height: 360px;
+  position: relative;
+}
+/* line 441, scss/main_style.scss */
+#team #connect a {
+  color: #fff;
+}
+/* line 445, scss/main_style.scss */
+#team #connect .keep_up {
+  background: url("../img/black_battery.png") no-repeat;
+  bottom: 345px;
+  color: #fff;
+  height: 126px;
+  right: 0;
+  position: absolute;
+  width: 306px;
+}
+/* line 454, scss/main_style.scss */
+#team #connect .keep_up form {
+  left: 76px;
+  line-height: .5em;
+  position: absolute;
+  top: 73px;
+  width: 192px;
+}
+/* line 461, scss/main_style.scss */
+#team #connect .keep_up form input {
+  margin-top: 10px;
+  width: 105px;
+}
+/* line 466, scss/main_style.scss */
+#team #connect .keep_up form #newsletterSubmit {
+  margin-left: 5px;
+  width: 60px;
+}
+/* line 471, scss/main_style.scss */
+#team #connect .keep_up form p {
+  line-height: 1em;
+}
+/* line 478, scss/main_style.scss */
+#team #connect #info {
+  margin-left: 56px;
+  position: relative;
+}
+/* line 482, scss/main_style.scss */
+#team #connect #info .addresses {
+  color: #fff;
+  float: left;
+  line-height: 1.5em;
+  margin-top: 15px;
+}
+/* line 488, scss/main_style.scss */
+#team #connect #info .addresses p {
+  padding-bottom: 10px;
+}
+/* line 494, scss/main_style.scss */
+#team #connect #info .location h5 {
+  color: #fff;
+  font-size: 1.2em;
+  margin: 10px 0 10px 0;
+}
+/* line 500, scss/main_style.scss */
+#team #connect #info .location p {
+  padding-bottom: 10px;
+}
+/* line 503, scss/main_style.scss */
+#team #connect #info .location p a {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+/* line 507, scss/main_style.scss */
+#team #connect #info .location p a:hover {
+  text-decoration: underline;
+}
+/* line 513, scss/main_style.scss */
+#team #connect #info .location p.map a {
+  font-style: italic;
+}
+/* line 520, scss/main_style.scss */
+#team #connect #info .email {
+  color: #fff;
+  float: right;
+  font-size: 110%;
+  margin-right: 50px;
+  margin-top: 294px;
+}
+/* line 527, scss/main_style.scss */
+#team #connect #info .email a {
+  text-decoration: none;
+}
